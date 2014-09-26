@@ -12,7 +12,7 @@ Make sure you have JQuery 1.7+ and AngularJS 1.2+
 **HTML**
 
 **PARAMETERS:**
-Set carousel parameters with 'owl-<<parameter>>=""' In place of <<parameter>>, use one of the 
+Set carousel parameters with 'owl-[[parameter]]=""' In place of [[parameter]], use one of the 
 JQuery parameters such as: items, pagination, singleItem, etc.
 For a complete list of parameters see http://owlgraphic.com/owlcarousel/#customizing
 
@@ -29,12 +29,12 @@ not affect any other carousel on the page
 
 **CUSTOM CONTROLS:**
 Apply the following classes to elements to assing them as control triggers.
- * '.<<carousel-id>>-next' = Scrolls Right
- * '.<<carousel-id>>-prev' = Scrolls Left
- * '.<<carousel-id>>-play' = Starts Autoplay
- * '.<<carousel-id>>-stop' = Stops Autoplay
+ * '.[[carousel-id]]-next' = Scrolls Right
+ * '.[[carousel-id]]-prev' = Scrolls Left
+ * '.[[carousel-id]]-play' = Starts Autoplay
+ * '.[[carousel-id]]-stop' = Stops Autoplay
 
-Note: Replace <<carousel-id>> with the carousel's id, if no id is assigned then replace it with 'owl-carousel'
+Note: Replace [[carousel-id]] with the carousel's id, if no id is assigned then replace it with 'owl-carousel'
 
 
 **EXAMPLE:**
